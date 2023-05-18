@@ -1428,7 +1428,7 @@
       "layout": {
         "icon-image": "{class}_11",
         "text-anchor": "left",
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 9,
         "text-offset": [0.9, 0],
@@ -1500,7 +1500,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": ["Noto Sans Regular"],
         "text-letter-spacing": 0.1,
         "text-max-width": 9,
@@ -1520,7 +1520,7 @@
       "source-layer": "place",
       "filter": ["all", ["==", "class", "village"]],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 8,
         "text-size": {"base": 1.2, "stops": [[10, 12], [15, 22]]}
@@ -1540,7 +1540,7 @@
       "layout": {
         "icon-image": {"base": 1, "stops": [[0, "dot_9"], [8, ""]]},
         "text-anchor": "bottom",
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 8,
         "text-offset": [0, 0],
@@ -1562,8 +1562,8 @@
       "layout": {
         "icon-image": {"base": 1, "stops": [[0, "dot_9"], [8, ""]]},
         "text-anchor": "bottom",
-        "text-field": "{name_en}",
-        "text-font": ["Noto Sans Medium"],
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
         "text-max-width": 8,
         "text-offset": [0, 0],
         "text-size": {"base": 1.2, "stops": [[7, 14], [11, 24]]},
@@ -1584,7 +1584,7 @@
       "maxzoom": 6,
       "filter": ["all", ["==", "class", "state"]],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": ["Noto Sans Regular"],
         "text-size": {"stops": [[4, 11], [6, 15]]},
         "text-transform": "uppercase"
@@ -1602,7 +1602,7 @@
       "source-layer": "place",
       "filter": ["all", [">=", "rank", 3], ["==", "class", "country"]],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 6.25,
         "text-size": {"stops": [[3, 11], [7, 17]]},
@@ -1622,7 +1622,7 @@
       "source-layer": "place",
       "filter": ["all", ["==", "rank", 2], ["==", "class", "country"]],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 6.25,
         "text-size": {"stops": [[2, 11], [5, 17]]},
@@ -1642,7 +1642,7 @@
       "source-layer": "place",
       "filter": ["all", ["==", "rank", 1], ["==", "class", "country"]],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 6.25,
         "text-size": {"stops": [[1, 11], [4, 17]]},
@@ -1663,7 +1663,7 @@
       "maxzoom": 1,
       "filter": ["all", ["==", "class", "continent"]],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": ["Noto Sans Regular"],
         "text-size": 13,
         "text-transform": "uppercase",
